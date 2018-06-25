@@ -1,0 +1,181 @@
+body {
+ 
+ background-color: #6B8E23;
+ color:white;
+ font-family: 'Roboto', sans-serif;
+}
+
+.header img {
+ margin: auto;
+ width:40%;
+ 
+}
+
+.header {
+ background-color: #6B8E23 ;
+ margin:auto;
+  width: 80%;
+ color: white;
+ font-size:15px;
+ text-align: center;
+ }
+#startGame {
+  background-color: white;
+  border-radius: 30px;
+  width:250px; 
+  height:50px;
+  font-size:30px;
+  margin:auto;
+  padding:20px;
+  color:#6B8E23;
+}
+#startGame:hover {
+  cursur: pointer;
+  background-color:   #DEB887;
+  color:white;
+  border: none;
+  outline: 0pt;
+  }
+ #timer {
+   text-align: center;
+   background-color: #CD853F;
+   margin:auto;
+   padding:5px;
+   width: 60%;
+   font-style: bold;
+   border-radius: 70px;
+ }
+
+#startTheGame {
+margin: 0 auto;
+background-color: #CD853F;
+border-radius: 40px;
+text-align: center;
+font-size: 25px;
+width: 75%;
+height:250px;
+padding: 20px;
+}
+
+.grid {
+  display:none;
+  margin: 0 auto;
+  width:80%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 70px;
+  border: 15px solid   #cbcbcb;
+  box-shadow: 0 10 45 5   #cbcbcb;
+
+}
+
+#scoreImg {
+    display: none;
+    text-align: center;
+    width: 50%;
+    background-color: ##CD853F;
+    margin: 0 auto;
+    width:40%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 70px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 0 10 15 5 #cbcbcb;
+   font-size: 20px;
+}
+#resultsCorrect, #resultsIncorrect, #resultsTimedOut, #resultsPercent {
+  background-color: ##CD853F;
+  display:none;
+  text-align: center;
+  margin: 0 auto;
+  width:30%;
+  padding: 10px 50px 50px 50px;
+  border-radius: 70px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 0 10 15 5 #cbcbcb;
+  font-size: 20px;
+}
+#resultsTwo {
+  background-color: ##808080;
+  display:none;
+  margin: 0 auto;
+  text-align: center;
+  width:60%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 70px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 0 10 15 5 #cbcbcb;
+  
+}
+#response {
+  display:none;
+  margin: 0 auto;
+  width:80%;
+  padding: 10px 50px 50px 50px;
+  border-radius: 70px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 0 10 15 5 #cbcbcb;
+  font-size: 20px;
+}
+ #question{
+  font-size: 25px;
+  text-align: center;
+  background-color: #6B8E23 ;
+   margin:auto;
+   height:80px;
+   padding:20px;
+   width: 70%;
+}
+.button {
+  
+  margin-top: 5px;
+  
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background-color: #CD853F;
+  width:300px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #D2691E;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 15px;
+  outline: 0pt; 
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  curser: pointer;
+  background-color: #DEB887;
+  border: none;
+  outline: 0pt;
+  }
+
+#btn0::after, #btn1::after, #btn2::after, #btn3::after, {
+  content: "";
+  background-color: #CD853F;
+  width:300px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #D2691E;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 15px;
+  outline: 0pt; 
+}
+#progress {
+  color: white;
+  font-size: 20px;
+}
+
+
+.footer{
+   text-align: center;
+   background-color: # ;
+   margin:auto;
+   height:100px;
+   width: 30%;
+   font-size: 20px:;
+ }
+
+  
+    
+ 
